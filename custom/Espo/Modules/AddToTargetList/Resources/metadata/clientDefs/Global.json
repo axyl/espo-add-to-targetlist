@@ -1,0 +1,21 @@
+{
+    "massActionList": [
+        "__APPEND__",
+        "addToTargetList"
+    ],
+    "checkAllResultMassActionList": [
+        "__APPEND__",
+        "addToTargetList"
+    ],
+    "massActionDefs": {
+        "addToTargetList": {
+            "label": "Add to Target List",
+            "acl": "edit",
+            "aclScope": "TargetList",
+            "handler": "add-to-target-list:handlers/add-to-target-list",
+            "actionFunction": "actionAddToTargetList",
+            "initFunction": "initAddToTargetList",
+            "groupIndex": 4
+        }
+    }
+}

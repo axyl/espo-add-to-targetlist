@@ -1,0 +1,16 @@
+{
+    "labels": {
+        "Add to Target List": "Add to Target List"
+    },
+    "massActions": {
+        "addToTargetList": "Add to Target List"
+    },
+    "messages": {
+        "addToTargetListUnavailable": "This entity cannot be added to a Target List, or you do not have the required access.",
+        "addToTargetListEmptySelection": "Select at least one record.",
+        "addToTargetListDialogFailed": "Could not open the Target List selector. Please try again.",
+        "addToTargetListNoRecords": "No records were added. The selection may no longer match any accessible records.",
+        "addToTargetListDone": "Records added to the Target List.",
+        "addToTargetListFailed": "Could not complete adding records to the Target List. Some records may already have been added. Check your access and the Target List before retrying."
+    }
+}
